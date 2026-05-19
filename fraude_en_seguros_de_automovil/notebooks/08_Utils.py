@@ -28,8 +28,8 @@ from pyspark.ml import PipelineModel
 
 production_run_name = "production_evaluation"
 selection_metric = "auc_pr"
-training_notebook_path = "./07_Training_Job"
-evaluation_notebook_path = "./07_Evaluation_Job"
+training_notebook_path = "07_Training_Job"
+evaluation_notebook_path = "07_Evaluation_Job"
 training_timeout_seconds = 3600
 evaluation_timeout_seconds = 3600
 training_max_retries = 3
